@@ -5,10 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap"
+            rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1f8c3edb5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static "mediaQuery.css" %}">
+    <link rel="stylesheet" href="{% static "styles.css" %}">
     <link rel="stylesheet" href="{% static "contactStyles.css" %}">
     
 </head>
 <body>
+    <nav>
+        <div class="firstTop">
+            <h2>Abhishek Kumar</h2>
+        </div>
+
+        <div class="firstBottom">
+
+            <h2>Portfolio</h2>
+
+            <h2>Contact To Get My work</h2>
+
+            <a href="\" style="margin-top: .8rem;">
+                <i class="fa-solid fa-house" id="icon" style="font-size: 2em; 
+                color: white;
+                "></i>
+            </a>
+            
+                    
+                   
+                
+
+
+            </div>
+
+
+        </div>
+       
+        
+    </nav>
     <div class="contact-form-container">
         <h2>Contact Us</h2>
         <form action="{% url 'contact' %}" id='contactForm' method="post">

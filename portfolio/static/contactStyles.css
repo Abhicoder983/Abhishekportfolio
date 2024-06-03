@@ -2,19 +2,23 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
+    flex-direction: column;
+
+  
+    background-color: #0e0e0e;
 }
 
 .contact-form-container {
+   border: 5px solid blueviolet; 
+   box-shadow: 0 0 1em rgb(14, 1, 248);
+    align-self: center;
     background: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    
+    width: 50%;
+    place-self: center;
+    margin-top: 3%;
 }
 
 h2 {

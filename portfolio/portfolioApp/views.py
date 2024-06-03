@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponseRedirect
 from django.core.mail import send_mail
 from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
@@ -33,8 +33,13 @@ def contact(request):
                 recipient_list
             )
             print('Email sent successfully')
-            return render(request, 'success.html')
+            return HttpResponseRedirect('/')
         else:
             return render(request, 'contact.html', {'error': 'Please fill out all fields.'})
     else:
         return render(request, 'contact.html')
+
+
+def home(request):
+    print('abhishek')
+    return render(request, 'index.html')
