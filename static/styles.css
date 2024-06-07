@@ -15,11 +15,12 @@
 }
 body{
     background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    
  }
 
 
  nav{
-    
     z-index: 3;
     display: grid;
     position: sticky;
