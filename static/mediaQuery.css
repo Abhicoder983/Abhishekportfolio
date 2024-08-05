@@ -7,6 +7,29 @@
         font-size: 1rem;
     }
 }
+@media screen and (width<=1905px){
+    .projectEntity{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (width<=935px) {
+    .projectInner{
+        font-size: 2rem !important;
+    }
+    
+}
+@media screen and (width<=598px) {
+    .projectInner{
+        font-size: 1.5rem !important ;
+    }
+    .detailListd{
+        font-size: 1rem !important
+    }
+}
+
 @media screen and (width<=1136px) {
     .downloadCV{
         display:none
@@ -141,10 +164,16 @@
     .firstBottom h2{
         font-size: .7rem;
     }
-    
+    .projectInner{
+        font-size: 1rem !important;
+    }
+    .detailListd{
+        font-size: .7rem !important;
+    }
 }
 @media screen and (width <= 379px) {
     .home .imgHome {
         width: 14rem;
     }
 }
+

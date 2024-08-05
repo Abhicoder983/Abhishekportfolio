@@ -559,14 +559,14 @@ nav{
     color: white;
     display: flex;
     
-  
+  align-items: center;
     justify-content: space-between;
     margin: 3vh 0;
     border: 2px solid white;
     border-radius: 2em;
     
     border:2px solid white ;
-    padding: 2vh 2vw;
+    padding: 8vh 2vw;
 
     
 }
@@ -606,8 +606,36 @@ margin: 3vw;
 .projectDetail{
     max-height:fit-content ;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+.detailList{
+    height: fit-content;
+    width: 90%;
 
+    padding:0vh 2vw;
+    display: flex;
+    justify-content: center;
+   
+    margin: 3vh 3vw;
+    border: 2px solid #aa2673;
+    border-radius: 1rem;
+    
+
+}
+.detailListd{
+    display: block;
+    height: fit-content;
+   
+
+    margin :1vh 2rem 2vh 4vw;
+  
+    
+    font-size: 1.5rem;
+
+}
 
 .projectHeading {
     text-align: center;
