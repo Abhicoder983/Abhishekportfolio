@@ -114,12 +114,18 @@
 }
 }
 
-@media screen and (width<=740px){
+@media screen and (width<=927px){
     .professionList {
         
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);}
+    .arrowDownIcon{
+        display: block;
+    }
+    .arrowRightIcon{
+        display:none
+    }
 }
-}
+
 @media screen and (width<=753px){
     .about {
         flex-wrap: wrap-reverse;

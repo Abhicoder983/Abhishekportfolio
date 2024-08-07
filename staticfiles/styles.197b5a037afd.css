@@ -523,17 +523,17 @@ nav{
     opacity: 0;
     transition: all 0.2s linear ;
 }
-.detailService{
+.detialService{
     color: #aa2673;
     text-decoration: underline;
     font-size: 1.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
-.ListTech{
+.detailList{
     color: rgb(48, 238, 235);
     font-size: 1rem;
-
+    
 }
 
 .professionEntity:hover .cover{
