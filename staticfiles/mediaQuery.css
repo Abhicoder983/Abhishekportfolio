@@ -12,9 +12,21 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .intro h1 {
+        font-size: 3.5rem;
+    }
+   
 
 }
-
+@media screen and (width<=1550px){
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+    .intro p {
+        font-size: 1.5rem;
+    }
+    
+}
 @media screen and (width<=935px) {
     .projectInner{
         font-size: 2rem !important;
@@ -153,6 +165,9 @@
 @media screen and (width<=448px) {
     .firstBottom .CV{
         font-size:.7em;
+    }
+    .bar{
+        width: 38vw;
     }
     
 }

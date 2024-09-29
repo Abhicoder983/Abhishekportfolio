@@ -314,9 +314,9 @@ nav{
 .home .intro{
     
     color: white;
-    text-align: center;
     width: 30vw;
-   
+    margin-top: 1rem;
+    
     height: fit-content;
 
 }
@@ -325,8 +325,7 @@ nav{
     margin:0 0 0 10px;
 }
 .intro p{
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 1.2rem;
     
 }
 .home .imgBox{
@@ -341,17 +340,16 @@ nav{
 .home .imgHome{
     width: 25rem;
     height: 25rem;
+    margin:0 2vh;
     border-radius: 20vh;
     border: 2px solid rgb(255, 255, 255);
 }
 .homeIcons{
     display: flex;
  justify-content: space-between;
- 
- 
+
    align-items: center;
-  margin-left: 1vw;
-  margin-bottom: 2rem;
+    margin: .4vh 2vw;
 }
 .home .homeIcons i{
     
@@ -408,21 +406,18 @@ nav{
 .about .itemAbout{
     color: white;
     width: 30vw;
-    text-align: justify;
+   
     height: fit-content;
 }
 
 .itemAbout p{
     color: rgb(5, 242, 246);
     
-    margin-bottom: 3rem;
+    margin-bottom: 15vh;
     font-size: 4rem;
 }
 .itemAbout h1{
-    font-size: 2rem;
-    text-decoration: underline;
-    margin-bottom: .5rem;
-    text-align: center;
+    font-size: 2.5em;
 }
 
 

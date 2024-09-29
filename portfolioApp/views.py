@@ -15,11 +15,7 @@ def contact(request):
         message = request.POST.get('message')
         
         # Debugging print statements
-        print(f'Name: {name}')
-        print(f'Email: {email}')
-        print(f'Organization: {organization}')
-        print(f'Subject: {subject}')
-        print(f'Message: {message}')
+   
         
         if name and email and subject and message:
             recipient_list = ['ruhelabhishek@gmail.com']
