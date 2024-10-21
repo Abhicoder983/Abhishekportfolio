@@ -8,4 +8,3 @@ gunicorn==22.0.0
 whitenoise==6.6.0
 python-decouple==3.8
 packaging==24.0
-python-decouple==3.8
